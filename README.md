@@ -24,19 +24,18 @@ import pandas as pd
 import plotly.express as px 
 import xlwings as xw  
 
-### Obtener Excel ⌨️
+## Obtener Excel ⌨️
 
 df = pd.read_excel("ubicación del archivo")
 
 ## Manipular DataFrame ⚙️
-
 
 Adicionar columnas.
 df["Month"] = df["Order Date"].dt.month
 df["Profit Margin"] = df["Profit"] / df["Sales"]
 df.head()
 
-## Analizar subcategorias
+## Analizar subcategorias 
 
 sales_profit_bar.show()
 
@@ -54,15 +53,12 @@ for unique_value in df["City"].unique():
         index=False,
     )
     
-    ## Exportar a Excel o CSV.
+## Exportar a Excel o CSV 🔩
     
     df.to_xlsx()
     df.to_csv()
     
-    ## Autor ✒️
+## Autor ✒️
     
     https://github.com/fradurgo19
   
-  
-
-
