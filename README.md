@@ -1,4 +1,4 @@
-# Python-y-Excel.
+# Python-y-Excel
 
 Con Python puedes analizar datos, generar gráficos interactivos y automatizar tareas en Excel.
 
