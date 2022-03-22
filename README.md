@@ -35,7 +35,7 @@ df["Month"] = df["Order Date"].dt.month
 df["Profit Margin"] = df["Profit"] / df["Sales"]
 df.head()
 
-## Analizar subcategorias 
+## Analizar subcategorias  📖
 
 sales_profit_bar.show()
 
