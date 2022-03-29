@@ -31,6 +31,7 @@ Con Python puedes analizar datos, generar gráficos interactivos y automatizar t
 ## Manipular DataFrame ⚙️
 
 Adicionar columnas.
+
         df["Month"] = df["Order Date"].dt.month
         df["Profit Margin"] = df["Profit"] / df["Sales"]
         df.head()
