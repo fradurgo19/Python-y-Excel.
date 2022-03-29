@@ -18,40 +18,40 @@ Con Python puedes analizar datos, generar gráficos interactivos y automatizar t
 
 ## Importar librerías 🔧
 
-from pathlib import Path  # Pythonlibreria estandar
+        from pathlib import Path  # Pythonlibreria estandar
 
-import pandas as pd  
-import plotly.express as px 
-import xlwings as xw  
+        import pandas as pd  
+        import plotly.express as px 
+        import xlwings as xw  
 
 ## Obtener Excel ⌨️
 
-df = pd.read_excel("ubicación del archivo")
+        df = pd.read_excel("ubicación del archivo")
 
 ## Manipular DataFrame ⚙️
 
 Adicionar columnas.
-df["Month"] = df["Order Date"].dt.month
-df["Profit Margin"] = df["Profit"] / df["Sales"]
-df.head()
+        df["Month"] = df["Order Date"].dt.month
+        df["Profit Margin"] = df["Profit"] / df["Sales"]
+        df.head()
 
 ## Analizar subcategorias  📖
 
-sales_profit_bar.show()
+        sales_profit_bar.show()
 
 ## Convertir los datos a Excel 🖇️
 
-wb.save(output_dir_analysis / "ubicación del archivo")
+        wb.save(output_dir_analysis / "ubicación del archivo")
 
 ## Automatizar 📦
 
-for unique_value in df["City"].unique():
-    df_output = df.query("City == @unique_value")
-    df_output.to_excel(
-        output_dir_cities / f"{unique_value}.xlsx",
-        sheet_name=unique_value[:31],
-        index=False,
-    )
+    for unique_value in df["City"].unique():
+        df_output = df.query("City == @unique_value")
+        df_output.to_excel(
+            output_dir_cities / f"{unique_value}.xlsx",
+            sheet_name=unique_value[:31],
+            index=False,
+        )
     
 ## Exportar a Excel o CSV 🔩
     
@@ -60,5 +60,5 @@ for unique_value in df["City"].unique():
     
 ## Autor ✒️
     
-    https://github.com/fradurgo19
+   ⭐️  [fradurgo19](https://github.com/fradurgo19)
   
