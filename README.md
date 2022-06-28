@@ -4,10 +4,10 @@ Con Python puedes analizar datos, generar gráficos interactivos y automatizar t
 
 ## Comenzando 🚀
 
-1. Obtener la data de excel.
-2. Manipular y analizar la Data en Python.
-3. Generar Datos a Excel o CSV.
-4. Separa la Data.
+1. Obtener la data de excel
+2. Manipular y analizar la Data en Python
+3. Generar Datos a Excel o CSV
+4. Separa la Data
 
 ## Pre-requisitos 📋
 
